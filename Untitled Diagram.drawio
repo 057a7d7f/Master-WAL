@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-08T23:49:16.663Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="7tcukYv_tZVAudQcGb88" version="12.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-08T23:51:31.513Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="MmnjJpChIHcgnTnxGU4I" version="12.9.9" type="github">
   <diagram id="1Mv5UenHe6NZsJKYI-XA" name="Page-1">
     <mxGraphModel dx="1143" dy="1230" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -323,16 +323,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-206" value="&lt;span&gt;START&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="388" y="3850" width="75" height="30" as="geometry" />
+          <mxGeometry x="388" y="3770" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-239" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eDKnLKu3AF1lJeht246Q-233" target="eDKnLKu3AF1lJeht246Q-238">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-233" value="&lt;span&gt;SA_CON CONTAINS &lt;br&gt;(&#39;WAL MATRIX&#39;)?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="322.36999999999995" y="4020" width="205.24" height="80" as="geometry" />
+          <mxGeometry x="322.36999999999995" y="3920" width="205.24" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eDKnLKu3AF1lJeht246Q-344" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eDKnLKu3AF1lJeht246Q-238" target="eDKnLKu3AF1lJeht246Q-342">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-238" value="WAL_NOMATRIX = WAL_nm - MATRIX&lt;br&gt;&lt;br&gt;WEDGE_ANGLE_NOMATRIX = arctan(WAL_NOMATRIX / RWSEP) * 180/PI&lt;br&gt;&lt;br&gt;EXPERIMENTAL_NOMATRIX = Experimental_Offset - MATRIX&lt;br&gt;&lt;br&gt;MCW_NOMATRIX = MCW_nm + (WAL MATRIX / WAL SENSITIVITY(" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="211.28" y="4140" width="427.43" height="140" as="geometry" />
+          <mxGeometry x="211.28" y="4030" width="427.43" height="140" as="geometry" />
         </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-278" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eDKnLKu3AF1lJeht246Q-259" target="eDKnLKu3AF1lJeht246Q-147">
           <mxGeometry relative="1" as="geometry">
@@ -425,19 +428,25 @@
           <mxGeometry x="803.11" y="4420" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-328" value="&lt;font color=&quot;#0000ff&quot;&gt;W + R + C DATA&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="369.99" y="3970" width="110" height="20" as="geometry" />
+          <mxGeometry x="369.99" y="3890" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-336" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eDKnLKu3AF1lJeht246Q-329" target="eDKnLKu3AF1lJeht246Q-233">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-329" value="GOOD DET SAMCW REFERENCE" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="350" y="3910" width="150" height="60" as="geometry" />
+          <mxGeometry x="350" y="3830" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-337" value="&lt;h1&gt;COMPUTE BACK TO &quot;NORMAL STATE&quot;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#CCFF99;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="550" y="4045" width="510" height="30" as="geometry" />
+          <mxGeometry x="550" y="4000" width="510" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-339" value="&lt;h1&gt;&lt;span&gt;MB CALCULATION&lt;/span&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#CCFF99;" vertex="1" parent="1">
           <mxGeometry x="39.760000000000005" y="4420" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eDKnLKu3AF1lJeht246Q-342" value="SA MCW REFERENCE (NORMAL STATE)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="350" y="4240" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eDKnLKu3AF1lJeht246Q-343" value="&lt;font color=&quot;#0000ff&quot;&gt;W + R + C DATA&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="369.99" y="4300" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
