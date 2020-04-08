@@ -1,35 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2020-04-08T05:47:25.981Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="aVFZCH5SZwbmndo2iRAL" version="12.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-08T05:49:03.836Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="brSZLhpkjmE1x9W_g_Sj" version="12.9.9" type="github">
   <diagram id="1Mv5UenHe6NZsJKYI-XA" name="Page-1">
     <mxGraphModel dx="1143" dy="1230" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="eDKnLKu3AF1lJeht246Q-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;fontStyle=1" edge="1" parent="1" source="eDKnLKu3AF1lJeht246Q-77">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="804" y="1340" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="eDKnLKu3AF1lJeht246Q-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;fontStyle=1" edge="1" parent="1" source="eDKnLKu3AF1lJeht246Q-77">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="804" y="2170" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="eDKnLKu3AF1lJeht246Q-77" value="&lt;h1&gt;&lt;span&gt;&lt;font style=&quot;background-color: rgb(204 , 255 , 153)&quot;&gt;SELECTING LATEST WAL DATA&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=90;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="610" y="1700" width="390" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="eDKnLKu3AF1lJeht246Q-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;fontStyle=1" edge="1" parent="1" source="eDKnLKu3AF1lJeht246Q-136">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="364" y="1340" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="eDKnLKu3AF1lJeht246Q-258" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="eDKnLKu3AF1lJeht246Q-136">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="364" y="2180" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="eDKnLKu3AF1lJeht246Q-136" value="&lt;h1&gt;&lt;span style=&quot;background-color: rgb(204 , 255 , 153)&quot;&gt;QTY CHECK (WAL CALCULATION)&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=90;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="160" y="1720" width="410" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="eDKnLKu3AF1lJeht246Q-1" target="eDKnLKu3AF1lJeht246Q-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -477,6 +451,12 @@
         </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-260" value="&lt;font color=&quot;#0000ff&quot;&gt;W + R DATA&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="645" y="2290" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eDKnLKu3AF1lJeht246Q-265" value="&lt;h2&gt;&lt;span&gt;CHECK WAL CALCULATION STATUS BASED ON QUANTITY CRITERIA&lt;/span&gt;&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#CCFF99;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1750" width="753.78" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eDKnLKu3AF1lJeht246Q-266" value="&lt;h2&gt;&lt;span&gt;SELECTING LATEST WAL DATA FROM WAFTOFABHIST&lt;/span&gt;&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#CCFF99;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="428.11" y="1750" width="753.78" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
