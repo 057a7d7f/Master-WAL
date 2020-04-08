@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-08T00:44:48.515Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="tLSkGYlQkEc0RbgxhNuj" version="12.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-08T00:45:49.217Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="NYsRk9M41ZoTI7TCftTM" version="12.9.9" type="github">
   <diagram id="1Mv5UenHe6NZsJKYI-XA" name="Page-1">
     <mxGraphModel dx="980" dy="1054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -175,7 +175,7 @@
         <mxCell id="eDKnLKu3AF1lJeht246Q-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontStyle=1" edge="1" parent="1" source="eDKnLKu3AF1lJeht246Q-52" target="eDKnLKu3AF1lJeht246Q-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eDKnLKu3AF1lJeht246Q-52" value="&lt;span&gt;GET DELTATS = BCLTS - WAFERTS&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="eDKnLKu3AF1lJeht246Q-52" value="&lt;span&gt;GET DELTATS = BCLTS - WAFERTS&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="481.71999999999997" y="1020" width="227.1" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" edge="1" parent="1" source="eDKnLKu3AF1lJeht246Q-56" target="eDKnLKu3AF1lJeht246Q-63">
@@ -186,7 +186,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="eDKnLKu3AF1lJeht246Q-56" value="GET MEAN AND COUNT OF DELTATS,&lt;br&gt;SUMMARIZE PER WAFERNUM, ACTIVEUNTILTS" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="eDKnLKu3AF1lJeht246Q-56" value="GET MEAN AND COUNT OF DELTATS,&lt;br&gt;SUMMARIZE PER WAFERNUM, ACTIVEUNTILTS" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="497.9" y="1130" width="194.73" height="70" as="geometry" />
         </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eDKnLKu3AF1lJeht246Q-63" target="eDKnLKu3AF1lJeht246Q-156">
@@ -224,13 +224,13 @@
         <mxCell id="eDKnLKu3AF1lJeht246Q-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" edge="1" parent="1" source="eDKnLKu3AF1lJeht246Q-93" target="eDKnLKu3AF1lJeht246Q-97">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eDKnLKu3AF1lJeht246Q-93" value="SELECT&lt;br&gt;10 &amp;lt; MCW_NM &amp;lt; 120" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="eDKnLKu3AF1lJeht246Q-93" value="SELECT&lt;br&gt;10 &amp;lt; MCW_NM &amp;lt; 120" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="93.88999999999999" y="930" width="162.23" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" edge="1" parent="1" source="eDKnLKu3AF1lJeht246Q-97" target="eDKnLKu3AF1lJeht246Q-99">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eDKnLKu3AF1lJeht246Q-97" value="DELETE ROWBAR WITH&lt;br&gt;&amp;lt; 30 SLIDERS" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="eDKnLKu3AF1lJeht246Q-97" value="DELETE ROWBAR WITH&lt;br&gt;&amp;lt; 30 SLIDERS" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="93.88999999999999" y="1010" width="162.23" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="eDKnLKu3AF1lJeht246Q-99" target="eDKnLKu3AF1lJeht246Q-107">
@@ -245,13 +245,13 @@
         <mxCell id="eDKnLKu3AF1lJeht246Q-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="eDKnLKu3AF1lJeht246Q-104" target="eDKnLKu3AF1lJeht246Q-120">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eDKnLKu3AF1lJeht246Q-104" value="DELETE QUADS &lt;br&gt;WITH &amp;lt;= 3 ROWS" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="eDKnLKu3AF1lJeht246Q-104" value="DELETE QUADS &lt;br&gt;WITH &amp;lt;= 3 ROWS" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="179.99999999999997" y="1270" width="162.23" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" edge="1" parent="1" source="eDKnLKu3AF1lJeht246Q-107" target="eDKnLKu3AF1lJeht246Q-120">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eDKnLKu3AF1lJeht246Q-107" value="DELETE QUADS &lt;br&gt;WITH &amp;lt;= 5 ROWS" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="eDKnLKu3AF1lJeht246Q-107" value="DELETE QUADS &lt;br&gt;WITH &amp;lt;= 5 ROWS" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="9.999999999999979" y="1270" width="162.23" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-110" value="&lt;span&gt;YES&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
@@ -272,13 +272,13 @@
         <mxCell id="eDKnLKu3AF1lJeht246Q-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eDKnLKu3AF1lJeht246Q-121" target="eDKnLKu3AF1lJeht246Q-145">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eDKnLKu3AF1lJeht246Q-121" value="41 QUADS REQUIRED,&lt;br&gt;ELSE, NOT READY" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="eDKnLKu3AF1lJeht246Q-121" value="41 QUADS REQUIRED,&lt;br&gt;ELSE, NOT READY" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="179.99999999999997" y="1500" width="162.23" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eDKnLKu3AF1lJeht246Q-122" target="eDKnLKu3AF1lJeht246Q-145">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eDKnLKu3AF1lJeht246Q-122" value="22 QUADS REQUIRED&lt;br&gt;ELSE, NOT READY" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="eDKnLKu3AF1lJeht246Q-122" value="22 QUADS REQUIRED&lt;br&gt;ELSE, NOT READY" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="9.999999999999979" y="1500" width="162.23" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-125" value="&lt;span&gt;GO&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
@@ -304,7 +304,7 @@
         <mxCell id="eDKnLKu3AF1lJeht246Q-187" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eDKnLKu3AF1lJeht246Q-147" target="eDKnLKu3AF1lJeht246Q-183">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eDKnLKu3AF1lJeht246Q-147" value="PROCESSTS &amp;gt; ACTIVETS&lt;br&gt;WATARGET = Wedge_Angle_Fe..&lt;br&gt;TARGETOFFSET = Experiment..&lt;br&gt;SELGOFFSET = SH_OFFSET&lt;br&gt;LAPMODE = Lapping_Mode" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="eDKnLKu3AF1lJeht246Q-147" value="PROCESSTS &amp;gt; ACTIVETS&lt;br&gt;WATARGET = Wedge_Angle_Fe..&lt;br&gt;TARGETOFFSET = Experiment..&lt;br&gt;SELGOFFSET = SH_OFFSET&lt;br&gt;LAPMODE = Lapping_Mode" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="337.4" y="1760" width="194.73" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eDKnLKu3AF1lJeht246Q-152" target="eDKnLKu3AF1lJeht246Q-147">
@@ -344,11 +344,17 @@
             <mxPoint x="805" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="eDKnLKu3AF1lJeht246Q-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eDKnLKu3AF1lJeht246Q-183" target="eDKnLKu3AF1lJeht246Q-188">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-183" value="SA WAL DATA" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="359.76" y="1890" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-184" value="&lt;font color=&quot;#0000ff&quot;&gt;W + R + C DATA&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="379.76" y="1950" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eDKnLKu3AF1lJeht246Q-188" value="&lt;span style=&quot;&quot;&gt;Existing DETAdjusted_WAL&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="332.14" y="2000" width="205.24" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
