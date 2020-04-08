@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-08T23:51:31.513Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="MmnjJpChIHcgnTnxGU4I" version="12.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-08T23:53:57.788Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="YcNWta8gFg7PCZ-bW5RU" version="12.9.9" type="github">
   <diagram id="1Mv5UenHe6NZsJKYI-XA" name="Page-1">
     <mxGraphModel dx="1143" dy="1230" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -447,6 +447,24 @@
         </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-343" value="&lt;font color=&quot;#0000ff&quot;&gt;W + R + C DATA&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="369.99" y="4300" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eDKnLKu3AF1lJeht246Q-348" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eDKnLKu3AF1lJeht246Q-345" target="eDKnLKu3AF1lJeht246Q-346">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDKnLKu3AF1lJeht246Q-345" value="&lt;span&gt;START&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="388" y="4480" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eDKnLKu3AF1lJeht246Q-350" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eDKnLKu3AF1lJeht246Q-346" target="eDKnLKu3AF1lJeht246Q-349">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDKnLKu3AF1lJeht246Q-346" value="SA MCW REFERENCE (NORMAL STATE)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="350" y="4550" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eDKnLKu3AF1lJeht246Q-347" value="&lt;font color=&quot;#0000ff&quot;&gt;W + R + C DATA&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="369.99" y="4610" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eDKnLKu3AF1lJeht246Q-349" value="DELETE ROWS WITH (MEASOFFSET = 0 OR BONDANGLE = -99)&lt;br&gt;DELETE ROWS WITH SELGOFFSET = -0.01 (SKEW LAP)" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="229.99" y="4660" width="390.01" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
