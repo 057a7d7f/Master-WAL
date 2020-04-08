@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-08T02:28:29.813Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="z36Fycql1wJUvzgjGYO1" version="12.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-08T03:15:20.728Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="m9G_HcBPge5MhdPVXkrZ" version="12.9.9" type="github">
   <diagram id="1Mv5UenHe6NZsJKYI-XA" name="Page-1">
     <mxGraphModel dx="980" dy="1054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -460,7 +460,7 @@
         <mxCell id="eDKnLKu3AF1lJeht246Q-239" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eDKnLKu3AF1lJeht246Q-233" target="eDKnLKu3AF1lJeht246Q-238">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eDKnLKu3AF1lJeht246Q-233" value="&lt;span&gt;SA_CON CONTAINS &lt;br&gt;(&#39;WAL MATRIX&#39;)?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="eDKnLKu3AF1lJeht246Q-233" value="&lt;span&gt;SA_CON CONTAINS &lt;br&gt;(&#39;WAL MATRIX&#39;)?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="324.88" y="2630" width="205.24" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-238" value="WAL_NOMATRIX = WAL_nm - MATRIX&lt;br&gt;&lt;br&gt;WEDGE_ANGLE_NOMATRIX = arctan(WAL_NOMATRIX / RWSEP) * 180/PI&lt;br&gt;&lt;br&gt;EXPERIMENTAL_NOMATRIX = Experimental_Offset - MATRIX&lt;br&gt;&lt;br&gt;MCW_NOMATRIX = MCW_nm + (WAL MATRIX / WAL SENSITIVITY(" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
