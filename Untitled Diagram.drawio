@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-08T06:59:35.790Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="YTZoZh9KJtBF0eGyI1Xc" version="12.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-08T06:59:45.873Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="shgT8CIySBTiFLhRcd0x" version="12.9.9" type="github">
   <diagram id="1Mv5UenHe6NZsJKYI-XA" name="Page-1">
     <mxGraphModel dx="1143" dy="1230" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -494,6 +494,9 @@
         </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-321" value="&lt;b&gt;PRINT WAFER STATUS&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="344" y="3240" width="162.23" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eDKnLKu3AF1lJeht246Q-324" value="&lt;h1&gt;&lt;b&gt;&lt;font style=&quot;font-size: 36px&quot;&gt;4&lt;/font&gt;&lt;/b&gt;&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="803.11" y="3330" width="40" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
