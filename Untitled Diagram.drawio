@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-08T00:16:20.592Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="l34YudOdWivmFdD5c-ql" version="12.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-08T00:16:55.872Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="EkUUUgkyZRV_VwS63dDJ" version="12.9.9" type="github">
   <diagram id="1Mv5UenHe6NZsJKYI-XA" name="Page-1">
     <mxGraphModel dx="980" dy="1054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -199,11 +199,17 @@
         <mxCell id="eDKnLKu3AF1lJeht246Q-77" value="&lt;h1&gt;&lt;b&gt;&lt;font style=&quot;background-color: rgb(204 , 255 , 153)&quot;&gt;SELECTING LATEST WAL DATA&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=90;" vertex="1" parent="eDKnLKu3AF1lJeht246Q-81">
           <mxGeometry x="-170" y="320" width="390" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="eDKnLKu3AF1lJeht246Q-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eDKnLKu3AF1lJeht246Q-86" target="eDKnLKu3AF1lJeht246Q-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-86" value="SLDR.JADE + SA_CONDITION&lt;br&gt;(MCW)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="100" y="830" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-90" value="&lt;font color=&quot;#0000ff&quot;&gt;W + R + C DATA&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="120" y="890" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eDKnLKu3AF1lJeht246Q-93" value="SELECT&lt;br&gt;10 &amp;lt; MCW_NM &amp;lt; 120" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="93.88999999999999" y="930" width="162.23" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
