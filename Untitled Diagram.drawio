@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-04-09T00:20:43.259Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="qdfxxUnxhxZf4V4gGf9V" version="12.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-09T00:21:40.695Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="pBhqzUw_ZEcHxd1ZWMy2" version="12.9.9" type="github">
   <diagram id="1Mv5UenHe6NZsJKYI-XA" name="Page-1">
-    <mxGraphModel dx="1143" dy="1230" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="686" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -498,12 +498,6 @@
         <mxCell id="eDKnLKu3AF1lJeht246Q-361" value="PRODLIST DATA" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="9.99999999999999" y="5690" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eDKnLKu3AF1lJeht246Q-362" value="SPECDB DATA" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="349.99" y="5690" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="eDKnLKu3AF1lJeht246Q-363" value="HITK DATA" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="693.11" y="5690" width="150" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-365" value="MBSHADJ DATA" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="520.27" y="5690" width="150" height="60" as="geometry" />
         </mxCell>
@@ -581,6 +575,12 @@
         </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-417" value="&lt;font color=&quot;#0000ff&quot;&gt;PRODUCT DATA&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="560" y="6360" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eDKnLKu3AF1lJeht246Q-419" value="&lt;font color=&quot;#0000ff&quot; style=&quot;font-size: 12px&quot;&gt;DELTA WAL, DELTA EXP_OFF&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="520" y="6380" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eDKnLKu3AF1lJeht246Q-420" value="&lt;font color=&quot;#0000ff&quot; style=&quot;font-size: 12px&quot;&gt;SA_MCW_TARGET, SENSITIVITY, ETC&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120.74000000000001" y="6380" width="230" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
