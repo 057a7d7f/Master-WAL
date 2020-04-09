@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-09T00:40:12.084Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="L4nvLKoNlclDFnPDDzqF" version="12.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-09T00:43:32.597Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="nylxgRGNITQUC7OQSNG9" version="12.9.9" type="github">
   <diagram id="1Mv5UenHe6NZsJKYI-XA" name="Page-1">
     <mxGraphModel dx="1993" dy="1230" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -656,6 +656,15 @@
         <mxCell id="eDKnLKu3AF1lJeht246Q-457" value="PER WAFER QUAD, GET MCW MEAN &amp;amp; SIGMA" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="504.43" y="7000" width="166.17" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="eDKnLKu3AF1lJeht246Q-473" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="eDKnLKu3AF1lJeht246Q-472">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265.83500000000004" y="7015" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="266" y="7315" />
+              <mxPoint x="428" y="7315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-462" value="WAFER dFP = SAMCW(WAFER) - (SA_MCW_Target * SA_MCW_Sensitivity)" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="141.67" y="7070" width="248.33" height="60" as="geometry" />
         </mxCell>
@@ -665,8 +674,20 @@
         <mxCell id="eDKnLKu3AF1lJeht246Q-464" value="WAFERQUAD dFP = &lt;br&gt;(SAMCW(QUAD) - SAMCW(WAFER)) * SA_MCW_Sensitivity*SA_Sensitivity_Quad_1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="463.35" y="7070" width="248.33" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="eDKnLKu3AF1lJeht246Q-474" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="eDKnLKu3AF1lJeht246Q-472">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="587.5149999999999" y="7165" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="588" y="7315" />
+              <mxPoint x="428" y="7315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="eDKnLKu3AF1lJeht246Q-470" value="ABS((SAMCW(QUAD) - SAMCW(WAFER))) &amp;gt; toQMCW&lt;br&gt;or&lt;br&gt;MCW(QUAD) SIGMA &amp;gt; toQSIGMA&lt;br&gt;or&lt;br&gt;MCW(QUAD) = NaN&amp;nbsp;&lt;br&gt;then&lt;br&gt;&amp;nbsp;dFP (QUAD) = 0" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="420" y="7160" width="335.03" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eDKnLKu3AF1lJeht246Q-472" value="WAL ADJUSTMENT = WAFER dFP + QUAD dFP&lt;br&gt;&lt;br&gt;MB WAL = SA WAL + WAL ADJUSTMENT" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="259.98" y="7365" width="335.03" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
